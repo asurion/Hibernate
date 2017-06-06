@@ -36,7 +36,13 @@
                <div class="code panel pdl" style="border-width: 1px;">
                   <div class="codeHeader panelHeader pdl" style="border-bottom-width: 1px;"><b>tag</b></div>
                   <div class="codeContent panelContent pdl">
-                     
+                     <script type="syntaxhighlighter" class="brush: java; gutter: false; theme: Confluence"><![CDATA[tag = [
+                        {
+                        &quot;Key&quot;:&quot;SCHEDULER:SLEEP&quot;,
+                        &quot;Value&quot;:&quot;FOLLOWTHESUN&quot;
+                        }
+                        ]]]>
+                     </script>
                   </div>
                </div>
             </li>
@@ -69,7 +75,13 @@
    <div class="code panel pdl" style="border-width: 1px;">
       <div class="codeHeader panelHeader pdl" style="border-bottom-width: 1px;"><b>tag</b></div>
       <div class="codeContent panelContent pdl">
-         
+         <script type="syntaxhighlighter" class="brush: java; gutter: false; theme: Confluence"><![CDATA[tag = [
+            {
+            &quot;Key&quot;:&quot;SCHEDULER:SLEEP&quot;,
+            &quot;Value&quot;:&quot;&lt;HHHH;HHHH;tz;schedule&gt;&quot;
+            }
+            ]]]>
+         </script>
       </div>
    </div>
    <p><u><strong>tag explained</strong></u></p>
