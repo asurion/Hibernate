@@ -20,7 +20,7 @@
     ]
 }
 ```
-#### add inline policy permissions (will figure out the least privilege policy later)
+#### add inline policy permissions 
 ```json
 {
     "Version": "2012-10-17",
@@ -28,7 +28,13 @@
         {
             "Sid": "permissions",
             "Effect": "Allow",
-            "Action": "*",
+            "Action": [
+                "ec2:*,
+                "autoscaling:*",
+                "dynamodb:*",
+                "lambda:*",
+                "logs:*"
+                ],
             "Resource": "*"
         }
     ]
