@@ -29,7 +29,7 @@
             "Sid": "permissions",
             "Effect": "Allow",
             "Action": [
-                "ec2:*,
+                "ec2:*",
                 "autoscaling:*",
                 "dynamodb:*",
                 "lambda:*",
