@@ -1,0 +1,13 @@
+{
+	"name":"async-worker-Scheduler",
+	"description": "sleep scheduler",
+	"region": "REGION",
+	"handler": "main.lambda_handler",
+	"role": "ROLE",
+	"requirements": ["pytz", "croniter"],
+	"ignore":[
+	
+	],
+		"timeout": 300,	
+		"memory": 256
+}

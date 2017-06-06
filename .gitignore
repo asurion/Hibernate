@@ -1,0 +1,6 @@
+*.pyc
+pytz
+*.zip
+*.idea/*
+.config
+.lambda_uploader_temp

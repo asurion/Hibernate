@@ -1,0 +1,13 @@
+{
+	"name":"async-producer-Scheduler",
+	"description": "spawn account, region pairs to lambda worker function",
+	"region": "REGION",
+	"handler": "main.lambda_handler",
+	"role":"ROLE",
+	"requirements":[],
+	"ignore":[
+	
+		],
+		"timeout": 300,
+		"memory": 128
+}

@@ -1,0 +1,11 @@
+{
+  "MASTER_ROLE_NAME" : "svc-operations-gov-assume-x",
+  "LEAF_ROLE_NAME" : "svc-operations-gov-crossaccount",
+  "TABLE_NAME": "accounts-metadata",
+  "REGION" : "us-east-1",
+
+  "MASTER_ACCOUNT_NUMBER" : "",
+  "LEAF_ACCOUNT_NUMBER" : "",
+  "PROFILE" : "",
+  "CW_RULE_NAME": ""
+}
