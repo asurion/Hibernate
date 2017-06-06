@@ -13,7 +13,7 @@
         {
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::{master_account_number}:root" # rootnode arg in step 2
+                "AWS": "arn:aws:iam::{master_account_number}:root" 
             },
             "Action": "sts:AssumeRole"
         }
