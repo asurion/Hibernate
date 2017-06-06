@@ -13,7 +13,7 @@
         {
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::{master_account_number}:root" 
+                "AWS": "arn:aws:iam::{parent_account_number}:root" 
             },
             "Action": "sts:AssumeRole"
         }
@@ -44,7 +44,7 @@
 
 
 ### step 2: Edit config.json and deploy
-for demonstration purposes, we only need to setup this script with 2 accounts, 1 master 1 slave.
+for demonstration purposes, we only need to setup this script with 2 accounts, 1 parent 1 child.
 to add more accounts, simply add a new item to the 'accounts-metadata' dynamodb table post build.
 
 ```
@@ -69,7 +69,7 @@ if __name__ == '__main__':
 
 There are 2 lambda functions. We will deploy using a package called lambda-uploader
 
-The first lambda function is the master function which will instantiate a new instance of the scheduler_sleep worker function in each account and region
+The first lambda function is the parent function which will instantiate a new instance of the scheduler_sleep worker function in each account and region
 
 Example snippet
 ```python
