@@ -1,6 +1,6 @@
 # Multi account EC2 Sleep Scheduler
 
-[You should see the tagging language before getting started](../blob/master/tag_grammar.md)
+[You should see the tagging language before getting started](../master/tag_grammar.md)
 
 
 
