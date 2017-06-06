@@ -18,7 +18,7 @@
                Auto Scaling Groups<br />
                <ol>
                   <li style="text-align: left;">
-                     <p><span style="color: rgb(255,0,0);">You can easily turn your environment back on by altering the variables in your <strong>auto scaling group</strong> back to the original config. If the scheduler sleeps your environment, these values will appear to be a zero (0)… A new tag is also placed on your auto scaling group “scheduler:asg-previous:min,max,desired” which will hold the value of the previous configuration. (you do not need to edit the tag)</span></p>
+                     <p><span style="color: rgb(255,0,0);">You can easily turn your environment back on by altering the variables in your <strong>auto scaling group</strong> back to the original config. If the scheduler sleeps your environment, these values will appear to be a zero (0)â€¦ A new tag is also placed on your auto scaling group â€œscheduler:asg-previous:min,max,desiredâ€ which will hold the value of the previous configuration. (you do not need to edit the tag)</span></p>
                   </li>
                </ol>
             </li>
@@ -44,7 +44,7 @@
             <li>Value: <strong>FOLLOWTHESUN</strong><strong><br /></strong></li>
          </ol>
       </li>
-      <li>Description: 7:00pm Friday – 3:00pm Sunday, pacific time (pt) <u>44 hours of sleep!</u><strong><br /></strong></li>
+      <li>Description: 7:00pm Friday â€“ 3:00pm Sunday, pacific time (pt) <u>44 hours of sleep!</u><strong><br /></strong></li>
       <li>This saves you over 25% a week per instance!!!</li>
       <li><em><strong>Remember to add this schedule to all of your scripts</strong></em></li>
    </ol>
@@ -67,7 +67,10 @@
    <p> </p>
    <h1 id="CostOptimization:SleepSchedule-EC2-AdvancedGuidetoCustomSchedules"><strong>Advanced Guide to Custom Schedules</strong></h1>
    <div class="code panel pdl" style="border-width: 1px;">
-      
+      <div class="codeHeader panelHeader pdl" style="border-bottom-width: 1px;"><b>tag</b></div>
+      <div class="codeContent panelContent pdl">
+         
+      </div>
    </div>
    <p><u><strong>tag explained</strong></u></p>
    <div class="table-wrap">
@@ -143,24 +146,24 @@
             <tr>
                <td colspan="1" class="confluenceTd">Sleep<br />Description</td>
                <td colspan="1" class="confluenceTd">
-                  <p>7:00pm Friday – 3:00pm Sunday,</p>
+                  <p>7:00pm Friday â€“ 3:00pm Sunday,</p>
                   <p>pacific time (pt)</p>
                </td>
                <td colspan="1" class="confluenceTd">
-                  <p>8:00pm Friday – 6:00am Monday,</p>
+                  <p>8:00pm Friday â€“ 6:00am Monday,</p>
                   <p>central time (ct)</p>
                </td>
                <td colspan="1" class="confluenceTd">
-                  <p>6:00pm – 6:00am mon,tue,wed,thu,fri,</p>
+                  <p>6:00pm â€“ 6:00am mon,tue,wed,thu,fri,</p>
                   <p>(also sleeps the weekend until 6am monday)</p>
                   <p>central time (ct)</p>
                </td>
                <td colspan="1" class="confluenceTd">
-                  <p>8:00pm – 6:00am everyday</p>
+                  <p>8:00pm â€“ 6:00am everyday</p>
                   <p><span>central time (ct)</span></p>
                </td>
                <td colspan="1" class="confluenceTd">
-                  <p>8:00pm – 6:00am Monday, Wednesday, Friday</p>
+                  <p>8:00pm â€“ 6:00am Monday, Wednesday, Friday</p>
                   <p>central time (ct)</p>
                </td>
             </tr>
