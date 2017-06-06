@@ -32,8 +32,7 @@
          Simply add the following tag key/value pair to your ec2 instance <strong>OR</strong> autoscaling group:
          <ol>
             <li><strong><u>TAG THE AUTO SCALING GROUP CONFIG IF YOUR INSTANCE(S) ARE ASSOCIATED WITH AN ASG (not the ec2 instance).</u></strong></li>
-         
-              
+        
             <li>Key: <strong>SCHEDULER:SLEEP</strong></li>
             <li>Value: <strong>FOLLOWTHESUN</strong><strong><br /></strong></li>
          </ol>
@@ -61,7 +60,7 @@
    <p> </p>
    <h1 id="CostOptimization:SleepSchedule-EC2-AdvancedGuidetoCustomSchedules"><strong>Advanced Guide to Custom Schedules</strong></h1>
 
-
+   <p><u><strong>tag explained</strong></u></p>
    <div class="table-wrap">
       <table class="confluenceTable">
          <tbody>
@@ -168,7 +167,9 @@
                <th class="confluenceTh">Region</th>
                <th colspan="1" class="confluenceTh">State/Country</th>
                <th class="confluenceTh">Time Zone Abbreviation</th>
-          
+               <th colspan="1" class="confluenceTh"> </th>
+               <th colspan="1" class="confluenceTh"> </th>
+               <th colspan="1" class="confluenceTh"> </th>
                <th colspan="1" class="confluenceTh"> </th>
                <th colspan="1" class="confluenceTh">Days <span>Abbreviation</span></th>
             </tr>
@@ -176,7 +177,9 @@
                <td colspan="1" class="confluenceTd">us-east-1</td>
                <td colspan="1" class="confluenceTd">North Virginia</td>
                <td colspan="1" class="confluenceTd">et</td>
-           
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
                <td colspan="1" class="confluenceTd"> </td>
                <td colspan="1" class="confluenceTd">mon</td>
             </tr>
@@ -184,7 +187,9 @@
                <td colspan="1" class="confluenceTd">us-west-1,us-west-2</td>
                <td colspan="1" class="confluenceTd">North California, Oregon</td>
                <td colspan="1" class="confluenceTd">pt</td>
-           
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
                <td colspan="1" class="confluenceTd"> </td>
                <td colspan="1" class="confluenceTd">tue</td>
             </tr>
@@ -192,7 +197,9 @@
                <td colspan="1" class="confluenceTd">eu-west-1</td>
                <td colspan="1" class="confluenceTd">Ireland</td>
                <td colspan="1" class="confluenceTd">utc</td>
-         
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
                <td colspan="1" class="confluenceTd"> </td>
                <td colspan="1" class="confluenceTd">wed</td>
             </tr>
@@ -200,7 +207,9 @@
                <td colspan="1" class="confluenceTd">eu-central-1</td>
                <td colspan="1" class="confluenceTd">Frankfurt</td>
                <td colspan="1" class="confluenceTd">cet</td>
-          
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
                <td colspan="1" class="confluenceTd"> </td>
                <td colspan="1" class="confluenceTd">thu</td>
             </tr>
@@ -208,7 +217,9 @@
                <td colspan="1" class="confluenceTd">ap-southeast-1</td>
                <td colspan="1" class="confluenceTd">Singapore</td>
                <td colspan="1" class="confluenceTd">sgt</td>
-    
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
                <td colspan="1" class="confluenceTd"> </td>
                <td colspan="1" class="confluenceTd">fri</td>
             </tr>
@@ -216,7 +227,9 @@
                <td colspan="1" class="confluenceTd">ap-southeast-2</td>
                <td colspan="1" class="confluenceTd">Sydney</td>
                <td colspan="1" class="confluenceTd">aedt</td>
-         
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
                <td colspan="1" class="confluenceTd"> </td>
                <td colspan="1" class="confluenceTd">sat</td>
             </tr>
@@ -225,7 +238,9 @@
                <td colspan="1" class="confluenceTd">Tokyo</td>
                <td colspan="1" class="confluenceTd">jst</td>
                <td colspan="1" class="confluenceTd"> </td>
-          
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
                <td colspan="1" class="confluenceTd">sun</td>
             </tr>
             <tr>
@@ -233,7 +248,9 @@
                <td colspan="1" class="confluenceTd">Seoul</td>
                <td colspan="1" class="confluenceTd">kt</td>
                <td colspan="1" class="confluenceTd"> </td>
-         
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
                <td colspan="1" class="confluenceTd"> </td>
             </tr>
             <tr>
@@ -241,7 +258,9 @@
                <td colspan="1" class="confluenceTd">Mumbai</td>
                <td colspan="1" class="confluenceTd">in</td>
                <td colspan="1" class="confluenceTd"> </td>
-          
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
                <td colspan="1" class="confluenceTd"> </td>
             </tr>
             <tr>
@@ -249,7 +268,9 @@
                <td colspan="1" class="confluenceTd">Sao Paulo</td>
                <td colspan="1" class="confluenceTd">brt</td>
                <td colspan="1" class="confluenceTd"> </td>
- 
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
                <td colspan="1" class="confluenceTd"> </td>
             </tr>
             <tr>
@@ -257,7 +278,9 @@
                <td colspan="1" class="confluenceTd"> </td>
                <td colspan="1" class="confluenceTd">ct</td>
                <td colspan="1" class="confluenceTd"> </td>
-     
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
+               <td colspan="1" class="confluenceTd"> </td>
                <td colspan="1" class="confluenceTd"> </td>
             </tr>
          </tbody>
