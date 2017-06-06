@@ -32,20 +32,7 @@
          Simply add the following tag key/value pair to your ec2 instance <strong>OR</strong> autoscaling group:
          <ol>
             <li><strong><u>TAG THE AUTO SCALING GROUP CONFIG IF YOUR INSTANCE(S) ARE ASSOCIATED WITH AN ASG (not the ec2 instance).</u></strong></li>
-            <li>
-               <div class="code panel pdl" style="border-width: 1px;">
-                  <div class="codeHeader panelHeader pdl" style="border-bottom-width: 1px;"><b>tag</b></div>
-                  <div class="codeContent panelContent pdl">
-                     <script type="syntaxhighlighter" class="brush: java; gutter: false; theme: Confluence"><![CDATA[tag = [
-                        {
-                        &quot;Key&quot;:&quot;SCHEDULER:SLEEP&quot;,
-                        &quot;Value&quot;:&quot;FOLLOWTHESUN&quot;
-                        }
-                        ]]]>
-                     </script>
-                  </div>
-               </div>
-            </li>
+           
             <li>Key: <strong>SCHEDULER:SLEEP</strong></li>
             <li>Value: <strong>FOLLOWTHESUN</strong><strong><br /></strong></li>
          </ol>
@@ -72,18 +59,7 @@
    <p>Please note that by tagging your resources with an Inactive value, you'll be subject to regular check-ups about when you might be able to take advantage of the flexible nature of AWS to save money.  We appreciate that teams have a varied work schedules, but we believe that there are still plenty of opportunities at some point in a project's life cycle.</p>
    <p> </p>
    <h1 id="CostOptimization:SleepSchedule-EC2-AdvancedGuidetoCustomSchedules"><strong>Advanced Guide to Custom Schedules</strong></h1>
-   <div class="code panel pdl" style="border-width: 1px;">
-      <div class="codeHeader panelHeader pdl" style="border-bottom-width: 1px;"><b>tag</b></div>
-      <div class="codeContent panelContent pdl">
-         <script type="syntaxhighlighter" class="brush: java; gutter: false; theme: Confluence"><![CDATA[tag = [
-            {
-            &quot;Key&quot;:&quot;SCHEDULER:SLEEP&quot;,
-            &quot;Value&quot;:&quot;&lt;HHHH;HHHH;tz;schedule&gt;&quot;
-            }
-            ]]]>
-         </script>
-      </div>
-   </div>
+
    <p><u><strong>tag explained</strong></u></p>
    <div class="table-wrap">
       <table class="confluenceTable">
