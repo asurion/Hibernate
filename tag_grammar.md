@@ -32,12 +32,25 @@
          Simply add the following tag key/value pair to your ec2 instance <strong>OR</strong> autoscaling group:
          <ol>
             <li><strong><u>TAG THE AUTO SCALING GROUP CONFIG IF YOUR INSTANCE(S) ARE ASSOCIATED WITH AN ASG (not the ec2 instance).</u></strong></li>
-           
+            <li>
+               <div class="code panel pdl" style="border-width: 1px;">
+                  <div class="codeHeader panelHeader pdl" style="border-bottom-width: 1px;"><b>tag</b></div>
+                  <div class="codeContent panelContent pdl">
+                     <script type="syntaxhighlighter" class="brush: java; gutter: false; theme: Confluence"><![CDATA[tag = [
+                        {
+                        &quot;Key&quot;:&quot;SCHEDULER:SLEEP&quot;,
+                        &quot;Value&quot;:&quot;FOLLOWTHESUN&quot;
+                        }
+                        ]]]>
+                     </script>
+                  </div>
+               </div>
+            </li>
             <li>Key: <strong>SCHEDULER:SLEEP</strong></li>
             <li>Value: <strong>FOLLOWTHESUN</strong><strong><br /></strong></li>
          </ol>
       </li>
-      <li>Description: 7:00pm Friday â€“ 3:00pm Sunday, pacific time (pt) <u>44 hours of sleep!</u><strong><br /></strong></li>
+      <li>Description: 7:00pm Friday (pt) 3:00pm Sunday, pacific time (pt) <u>44 hours of sleep!</u><strong><br /></strong></li>
       <li>This saves you over 25% a week per instance!!!</li>
       <li><em><strong>Remember to add this schedule to all of your scripts</strong></em></li>
    </ol>
