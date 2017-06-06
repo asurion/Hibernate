@@ -36,8 +36,7 @@
                <div class="code panel pdl" style="border-width: 1px;">
                   <div class="codeHeader panelHeader pdl" style="border-bottom-width: 1px;"><b>tag</b></div>
                   <div class="codeContent panelContent pdl">
-                     <script 
-                     </script>
+                     
                   </div>
                </div>
             </li>
